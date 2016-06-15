@@ -3,16 +3,16 @@
 # Outputs to STDOUT, redirect to a file of your choosing
 str = ARGF.read
 {
-  ">" => "ooo",
-  "<" => "ool",
-  "+" => "olo",
-  "-" => "oll",
-  "." => "loo",
-  "," => "lol",
-  "[" => "llo",
-  "]" => "lll"  
+  ">" => "ñññ",
+  "<" => "ññé",
+  "+" => "ñéñ",
+  "-" => "ñéé",
+  "." => "éññ",
+  "," => "éñé",
+  "[" => "ééñ",
+  "]" => "ééé"  
 }.each do |from, to|
   str = str.gsub(from, to)
 end
 
-puts "tro#{str}ll."
+puts "Ñéé#{str}éé."

@@ -2,13 +2,13 @@ $LOAD_PATH.unshift 'lib'
 require "trollscript/version"
 
 Gem::Specification.new do |s|
-  s.name              = "trollscript"
+  s.name              = "Ñ"
   s.version           = TrollScript::VERSION
   s.date              = Time.now.strftime('%Y-%m-%d')
-  s.summary           = "An alternative dialect of Brainfuck, for trolls."
-  s.homepage          = "https://github.com/tombell/trollscript"
-  s.email             = "tomb@tombell.org.uk"
-  s.authors           = [ "Tom Bell" ]
+  s.summary           = "Ñéñéñéñéñéñéñéñé."
+  s.homepage          = "https://github.com/CesarGonzalezM/trollscript"
+  s.email             = "cesar.glez.munoz@tombell.org.uk"
+  s.authors           = [ "César González" ]
   s.has_rdoc          = false
 
   s.files             = %w( README.md )
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
 
   s.executables       = %w( trollscript )
   s.description       = <<desc
-  TrollScript is basically an esoteric dialect of Brainfuck. Why did I make it I hear you ask? Because I had some free time.
+  Ñéééééééééééééééééééééééééééééñééééééééñéñéñééñññé
 desc
 end

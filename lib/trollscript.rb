@@ -1,4 +1,4 @@
-class TrollScript
+class Ñé
   def initialize
     @ops = create_ops
     @tape = Array.new(1024,0)
@@ -38,16 +38,16 @@ class TrollScript
 
   def create_ops
     {
-      "tro" => -> {},
-      "ooo" => -> { @tp = (@tp == @tape.size - 1 ? 0 : @tp + 1) },
-      "ool" => -> { @tp = (@tp == 0 ? @tape.size - 1 : @tp - 1) },
-      "olo" => -> { @tape[@tp] += 1 },
-      "oll" => -> { @tape[@tp] -= 1 },
-      "loo" => -> { print @tape[@tp].chr if @tape[@tp] },
-      "lol" => -> { get_input },
-      "llo" => -> { jump_to_close if @tape[@tp] == 0 },
-      "lll" => -> { jump_to_open unless @tape[@tp] == 0 },
-      "ll." => -> {}
+      "Ñéé" => -> {},
+      "ñññ" => -> { @tp = (@tp == @tape.size - 1 ? 0 : @tp + 1) },
+      "ññé" => -> { @tp = (@tp == 0 ? @tape.size - 1 : @tp - 1) },
+      "ñéñ" => -> { @tape[@tp] += 1 },
+      "ñéé" => -> { @tape[@tp] -= 1 },
+      "éññ" => -> { print @tape[@tp].chr if @tape[@tp] },
+      "éñé" => -> { get_input },
+      "ééñ" => -> { jump_to_close if @tape[@tp] == 0 },
+      "ééé" => -> { jump_to_open unless @tape[@tp] == 0 },
+      "éé." => -> {}
     }
   end
 
